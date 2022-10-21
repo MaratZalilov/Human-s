@@ -28,7 +28,6 @@ namespace Human_s
                             driver.Work();
                             humans.Add(driver);
                             break;
-
                         case 2:
                             Driver driver1 = new Driver("Леонид", "Гадалкин");
                             driver1.Work();
@@ -52,7 +51,6 @@ namespace Human_s
                             student.Work();
                             humans.Add(student);
                             break;
-
                         case 2:
                             Student student1 = new Student("Георгий", "Шенгели");
                             student1.Work();
@@ -76,7 +74,6 @@ namespace Human_s
                             teacher.Work();
                             humans.Add(teacher);
                             break;
-
                         case 2:
                             Teacher teacher1 = new Teacher("Дима", "Ларионов");
                             teacher1.Work();

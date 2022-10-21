@@ -17,8 +17,8 @@ while (true)
     {
         Menu();
         string Enter = Console.ReadLine();
-        int select = int.Parse(Enter);
-        switch (select)
+        bool select = int.TryParse(Enter, out int value);
+        switch (value)
         {
             case 1:
                 Console.WriteLine();
